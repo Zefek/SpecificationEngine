@@ -1,7 +1,8 @@
 # SpecificationEngine
-Framwork base on Specification pattern
+Framwork based on Specification pattern
 
 How to use
+
 Main part is Specification class. Specification is a like business condition. For example if you have in description Everywhere who has more than 30 year will have discount 50%, then you can create specification PersonWhoHasMoreThan30Years.
 This specification can be expressed in code by Specification.Create((Person person, context) =>  (DateTime.Today.Year - person.DateBirth.Year) > 30);
 
