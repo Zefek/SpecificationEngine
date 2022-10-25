@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Demo/bin/Debug/net6.0
+/Demo/obj
+/SpecificationEngine/bin/Debug/net6.0
+/SpecificationEngine/obj
+/SpecificationEngine.Tests/bin
+/SpecificationEngine.Tests/obj
+/.vs
